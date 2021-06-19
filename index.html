@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!--Picking a font from google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+    <title>Mann Jaiswal | Web Developer</title>
+    <link rel="shortcut icon" type="img/png" href="img/favicon_icon.png" />
+  </head>
+  <body>
+    <!--Add a nav bar-->
+    <div>
+      <!--Header with a set of navigation links and my own logo-->
+      <header class="page-header">
+        <!-- Added my own logo -->
+        <img
+          class="page-header__item"
+          id="logo"
+          src="img/my_logo.png"
+          width="378"
+          height="82"
+          alt="A personal logo of Mann Jaiswal's website that consists of my name and a laptop icon"
+        />
+        <nav class="page-header__item main-navigation">
+          <ul role="menubar" class="navigation-list">
+            <li role="presentation">
+              <a
+                href="index.html"
+                role="menuitem"
+                class="navigation-list__item navigation-list__item--active"
+                >Home</a
+              >
+            </li>
+            <li role="presentation">
+              <a href="about.html" role="menuitem" class="navigation-list__item"
+                >About Me</a
+              >
+            </li>
+            <li role="presentation">
+              <a href="work.html" role="navigation-list__item">Work</a>
+            </li>
+            <li role="presentation">
+              <a
+                href="contact.html"
+                role="menuitem"
+                class="navigation-list__item"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="profile">
+      <!--swap out the placeholder with my own portrait here-->
+      <img
+        class="profile__portrait"
+        src="img/portrait.jpg"
+        alt="Mann Jaiswal portrait"
+      />
+      <h1 class="hello">Hello!</h1>
+      <p class="home_paragraph">
+        My name is Mann Jaiswal. <br />
+        I am a <span>web</span> developer from Phoenix, Arizona
+      </p>
+      <a href="#" class="project_link" style="font-size: large"
+        >Check out some of my coding projects</a
+      >
+
+      <br />
+    </div>
+    <!--Adding SVG icons for the footer section-->
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <a href="#" target="_blank">
+          <img src="img/github_logo.svg" height="40" width="34" alt="Github"
+        /></a>
+        <a href="https://www.instagram.com/mannj99/" target="_blank">
+          <img
+            src="img/instagram_logo.svg"
+            height="40"
+            width="34"
+            alt="Instagram"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/mann-jaiswal-10506a148/"
+          target="_blank"
+        >
+          <img
+            src="img/linkedin_logo.svg"
+            height="40"
+            width="34"
+            alt="LinkedIn"
+        /></a>
+      </div>
+    </footer>
+    <!--Tota11y script-->
+    <!--- <script src="js/tota11y.min.js"></script>-->
+  </body>
+</html>
