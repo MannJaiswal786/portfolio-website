@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
@@ -21,16 +21,15 @@
       <!-- Added my own logo -->
       <img
         class="page-header__item"
-        src="img/my_logo.png" width="378" height="82"
+        src="img/my_logo.png"
+        width="378"
+        height="82"
         alt="A personal logo of Mann Jaiswal's website that consists of my name and a laptop icon"
       />
       <nav class="page-header__item main-navigation">
         <ul role="menubar" class="navigation-list">
           <li role="presentation">
-            <a
-              href="index.html"
-              role="menuitem"
-              class="navigation-list__item"
+            <a href="index.html" role="menuitem" class="navigation-list__item"
               >Home</a
             >
           </li>
@@ -40,7 +39,9 @@
             >
           </li>
           <li role="presentation">
-            <a href="work.html" role="navigation-list__item">Work</a>
+            <a href="work.html" role="menuitem" class="navigation-list__item"
+              >Work</a
+            >
           </li>
           <li role="presentation">
             <a
@@ -54,50 +55,58 @@
       </nav>
     </header>
     <main class="contact_content">
-  </div>
-    <h1 class="contact_header">Mann Jaiswal's Contact</h1>
-    <div class="contact_address">
-      Mann Jaiswal<br />
-      Tucson<br />
-      Arizona<br />
-      <br />
-      Telephone : <a href="tel:+14805266855">Call me by clicking here</a>
-      <br />
-      Skype: <a href="skype:mannj9@outlook.com">Click here to skype me</a> <br />
-      Email: <a href="mailto:mannjaiswal5@gmail.com">mannjaiswal5@gmail.com</a>
-      <br />
-      <a href="mailto:mannjaiswal5@gmail.com">Contact Me</a>
-    </div>
-    <br />
-    <!--Adding a contact form with labels and inputs-->
-    <h2 class="contact_header2">Get in touch by sending me a message:</h2>
-    <div> 
-      <form action="" method="POST" id="contact-form">
-        <label for="contact-email">Email:</label>
-        <input
-          type="email"
-          id="contact-email"
-          required
-          placeholder="user@email.com"
-        />
+      <h1 class="contact_header">Mann Jaiswal's Contact</h1>
+      <div class="contact_address">
+        Mann Jaiswal<br />
+        Tucson<br />
+        Arizona<br />
         <br />
-
-        <label for="contact-telephone" class="standard-label">Telephone:</label>
-        <input
-          type="tel"
-          id="contact-telephone"
-          placeholder="xxx-xxx-xxxx"
-        /><br />
-
-        <label for="contact-message" class="standard-label">Message:</label>
-        <textarea required maxlength="240" id="contact-message" placeholder="Type in a message here"></textarea>
+        Telephone : <a href="tel:+14805266855">Call me by clicking here</a>
         <br />
+        Skype: <a href="skype:mannj9@outlook.com">Click here to skype me</a>
+        <br />
+        Email:
+        <a href="mailto:mannjaiswal5@gmail.com">mannjaiswal5@gmail.com</a>
+        <br />
+        <a href="mailto:mannjaiswal5@gmail.com">Contact Me</a>
+      </div>
+      <br />
+      <!--Adding a contact form with labels and inputs-->
+      <h2 class="contact_header2">Get in touch by sending me a message:</h2>
+      <div>
+        <form action="form" method="POST" id="contact-form">
+          <label for="contact-email">Email:</label>
+          <input
+            type="email"
+            id="contact-email"
+            required
+            placeholder="user@email.com"
+          />
+          <br />
 
-        <input type="submit"  value="Send message" />
-      </form>
-    </div>
-    <br>
-  </main>
+          <label for="contact-telephone" class="standard-label"
+            >Telephone:</label
+          >
+          <input
+            type="tel"
+            id="contact-telephone"
+            placeholder="xxx-xxx-xxxx"
+          /><br />
+
+          <label for="contact-message" class="standard-label">Message:</label>
+          <textarea
+            required
+            maxlength="240"
+            id="contact-message"
+            placeholder="Type in a message here"
+          ></textarea>
+          <br />
+
+          <input type="submit" value="Send message" />
+        </form>
+      </div>
+      <br />
+    </main>
     <!--Adding SVG icons for the footer section-->
     <footer class="page-footer">
       <p>Find me on</p>
