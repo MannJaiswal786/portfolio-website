@@ -74,7 +74,7 @@ button:hover,
 
 .profile__portrait {
   float: left;
-  width: 150px;
+  width: 250px;
   margin-right: 40px;
   height: auto;
   border-radius: 10%;
@@ -212,6 +212,7 @@ tbody {
 
 .home_paragraph {
   font-size: var(--larger-font-size);
+  width: 600px;
 }
 
 .project__link {
@@ -312,4 +313,8 @@ tbody {
 
 .page-footer a {
   text-decoration: none;
+}
+
+.project__link {
+  position: absolute;
 }
