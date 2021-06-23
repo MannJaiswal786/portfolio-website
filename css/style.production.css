@@ -35,7 +35,7 @@ button {
   /*take the font from the outer container*/
   font-family: inherit;
   /*styles the background color, font color and 
-      text decoration of the button*/
+    text decoration of the button*/
   background-color: #76323f;
   color: #c09f80;
   text-decoration: none;
@@ -43,7 +43,7 @@ button {
   padding: 10px;
   border-radius: 3px;
   /*gives the button a bottom border with a width of 2px,
-    a solid type and a color in RGBA format*/
+  a solid type and a color in RGBA format*/
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
@@ -57,7 +57,7 @@ button {
   /*take the font from the outer container*/
   font-family: inherit;
   /*styles the background color, font color and 
-      text decoration of the button*/
+    text decoration of the button*/
   background-color: #76323f;
   color: #c09f80;
   text-decoration: none;
@@ -65,7 +65,29 @@ button {
   padding: 10px;
   border-radius: 3px;
   /*gives the button a bottom border with a width of 2px,
-    a solid type and a color in RGBA format*/
+  a solid type and a color in RGBA format*/
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.send_button {
+  /*overwrites browser defaults and resets the border*/
+  border: none;
+  display: inline-block;
+  /*take the font from the outer container*/
+  font-family: inherit;
+  /*styles the background color, font color and 
+    text decoration of the button*/
+  background-color: #76323f;
+  color: #c09f80;
+  text-decoration: none;
+  /*adds spacing to the button*/
+  padding: 10px;
+  border-radius: 3px;
+  /*gives the button a bottom border with a width of 2px,
+  a solid type and a color in RGBA format*/
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
@@ -75,11 +97,14 @@ button {
 button:hover,
 button:focus,
 button:hover,
-.button:focus {
+.button:focus,
+.send_button:hover,
+.send_button:focus {
   cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.send_button:hover {
   opacity: 0.8;
 }
 
@@ -89,7 +114,7 @@ button:hover,
 
 .profile__portrait {
   float: left;
-  width: 150px;
+  width: 250px;
   margin-right: 40px;
   height: auto;
   border-radius: 10%;
@@ -202,11 +227,11 @@ button:hover,
 }
 
 .project_link:visited {
-  color: #000;
+  color: #76323f;
 }
 
 .project__link {
-  color: #000;
+  color: #76323f;
 }
 
 .contact_content {
@@ -235,11 +260,11 @@ table {
   height: 200px;
 }
 
-.contact_header {
+.contact_header2 {
   color: #76323f;
 }
 
-.contact_header2 {
+.contact_header {
   color: #76323f;
 }
 
@@ -253,6 +278,7 @@ tbody {
 
 .home_paragraph {
   font-size: larger;
+  width: 600px;
 }
 
 .project__link {
@@ -270,6 +296,10 @@ tbody {
 .contact_address {
   font-size: larger;
   font-weight: bolder;
+}
+
+.contact_links {
+  color: #76323f;
 }
 
 #contact-form {
@@ -403,4 +433,12 @@ tbody {
 
 .page-footer a {
   text-decoration: none;
+}
+
+.project__link {
+  position: absolute;
+}
+
+#contact-form {
+  font-weight: bolder;
 }
