@@ -37,7 +37,8 @@ a:active {
 }
 
 button,
-.button {
+.button,
+.send_button {
   /*overwrites browser defaults and resets the border*/
   border: none;
   display: inline-block;
@@ -60,11 +61,14 @@ button,
 button:hover,
 button:focus,
 button:hover,
-.button:focus {
+.button:focus,
+.send_button:hover,
+.send_button:focus {
   cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.send_button:hover {
   opacity: 0.8;
 }
 
@@ -200,8 +204,11 @@ table {
   height: 200px;
 }
 
-.contact_header,
 .contact_header2 {
+  color: var(--dark-red);
+}
+
+.contact_header {
   color: var(--dark-red);
 }
 
@@ -321,4 +328,8 @@ tbody {
 
 .project__link {
   position: absolute;
+}
+
+#contact-form {
+  font-weight: bolder;
 }

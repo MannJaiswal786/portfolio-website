@@ -83,10 +83,13 @@
       </div>
       <br />
       <!--Adding a contact form with labels and inputs-->
-      <h2 class="contact_header2">Leave me a message here:</h2>
-      <div>
+      <div class="contact-form_div">
+        <h2 class="contact_header2">Leave me a message here:</h2>
         <form action="form" method="POST" id="contact-form">
-          <label class="standard-label" for="contact-email"
+          <label
+            style="color: var(--dark-grey)"
+            class="standard-label"
+            for="contact-email"
             >Email: <br />
             <br
           /></label>
@@ -99,7 +102,10 @@
           <br />
           <br />
 
-          <label for="contact-telephone" class="standard-label"
+          <label
+            for="contact-telephone"
+            class="standard-label"
+            style="color: var(--dark-grey)"
             >Telephone: <br />
             <br
           /></label>
@@ -110,7 +116,10 @@
           /><br />
           <br />
 
-          <label for="contact-message" class="standard-label"
+          <label
+            style="color: var(--dark-grey)"
+            for="contact-message"
+            class="standard-label"
             >Message: <br />
             <br
           /></label>
@@ -121,9 +130,11 @@
             placeholder="Type in a message here"
           ></textarea>
           <br />
+          <br />
 
           <input type="submit" value="Send message" class="send_button" />
         </form>
+        <br />
       </div>
       <br />
     </main>
