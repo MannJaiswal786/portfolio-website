@@ -229,6 +229,10 @@ tbody {
   font-weight: var(--bolder-font-weight);
 }
 
+.contact_links {
+  color: var(--dark-red);
+}
+
 #contact-form {
   font-size: var(--larger-font-size);
 }
